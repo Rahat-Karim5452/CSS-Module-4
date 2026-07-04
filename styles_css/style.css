@@ -1,0 +1,47 @@
+div{
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;/* flex-direction default vabe thake */
+    /* flex-direction: column; --Upore niche asbe */
+    /* flex-direction:column-reverse; 5 4 3 2 1 hisabe asbe.mane nicher ta upore  */
+
+    /* gap: 20px; */
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* justify-content: space-between;vitore vitore space dibe soman soman */
+    justify-content: space-between;
+}
+.box{
+    border: 3px solid blue;
+    height: 100px;
+}
+
+.user-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;/*Jate sob ekline e na ase.karon 20 ta dile sob ek line e ese jay*/
+}
+.user{
+    border: 3px solid rgb(196, 26, 54);
+    height: 100px;
+}
+
+.pic-container{
+    display: flex;/*Parent k must flex marte hbe*/
+    border: 3px solid rgb(249, 7, 156);
+    justify-content: center;
+    align-items: center;/* vertically Center e bosate */
+    height: 500px;
+}
+
+.pic{
+ border: 3px solid rgb(35, 247, 155);
+   height: 200px;
+   width: 200px;
+}
